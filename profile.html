@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMania</title>
+    <link rel="stylesheet" href="new.css" type="text/css">
+    <script src="javascript.js"></script>	
+	
+</head>
+
+<body>
+    <nav>    
+        <p class="menu-icon-style" onclick="openNav()">&#9776;</p>  
+        <a href="index.html"><img src="images/logo.png" alt="CineMania" class="menu-tagline-style"></a>
+
+<div class="header-icons">
+    <div class="search-container">
+        <form action="/search" method="get">
+            <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+            <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+        </form>
+    </div>
+    <a href="profile.html" class="login-icon">&#128100;</a>
+</div>
+		
+    </nav>   
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="trailers.html">Trailers</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="login.html">Login</a>
+        </div>
+    </div>
+
+    <!-- Movie Reviews Section -->
+    <section class="movie-reviews">
+        <h2>Movie Reviews </h2>
+
+        <!-- Review 1 -->
+
+        <div class="review">
+            <h3>Misery</h3>
+            <p>This movie was amazing.</p>
+            <p>Rating: 8/10</p>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review">
+            <h3>Kung Fu Panda</h3>
+            <p>I really enjoyed this film.</p>
+            <p>Rating: 7/10</p>
+        </div>
+        <div class="review">
+            <h3><span class="pencil-symbol"></span>Write New Review</h3>
+
+        </div>
+
+        <!-- Add more reviews as needed -->
+    </section>
+    <section class="featured-movies">
+        <h2 class="watchlist">Watchlist (9)</h2>
+	
+        <div class="movie-row">
+		
+            <div class="movie-box">
+                <img src="images/batman.jpg" alt="The Dark Knight">
+                <h3>The Dark Knight</h3>
+                <div class="movie-rating">
+                    <span>9.2</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="images/movie1.jpg" alt="The Godfather">
+                <h3>The Godfather</h3>
+                <div class="movie-rating">
+                    <span>9.6</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="images/fight.jpg" alt="Fight Club">
+                <h3>Fight Club</h3>
+                <div class="movie-rating">
+                    <span>8.7</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="images/lot.jpg" alt="Lord of The Rings">
+                <h3>Lord of The Rings</h3>
+                <div class="movie-rating">
+                    <span>9.0</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="images/pulp.jpg" alt="Pulp Fiction">
+                <h3>Pulp Fiction</h3>
+                <div class="movie-rating">
+                    <span>8.9</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="images/shaw.jpg" alt="Shawshank Redemption">
+                <h3>Shawshank Redemption</h3>
+                <div class="movie-rating">
+                    <span>9.3</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="images/incept.jpg" alt="Inception">
+                <h3>Inception</h3>
+                <div class="movie-rating">
+                    <span>8.3</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="images/good.jpg" alt="Good Fellas">
+                <h3>Good Fellas</h3>
+                <div class="movie-rating">
+                    <span>8.5</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="images/mystic.jpg" alt="Mystic River">
+                <h3>Mystic River</h3>
+                <div class="movie-rating">
+                    <span>8.8</span> <!-- Rating -->
+                    <span>&#9733;</span> <!-- Star icon (Unicode) -->
+                </div>
+            </div>
+            <!-- Add more movie boxes as needed -->
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="movie-review-footer">
+        <div class="footer-disclaimer">
+            <p><a href="#">Privacy Policy</a></p>
+            <p>Terms of Service</p>
+            <p>Cookies Notice</p>
+            <p>Help</p>
+        </div>
+        <div class="write-review-desktop">
+            <p><span class="pencil-symbol"></span> Write your first review now!</p>
+        </div>
+        <div class="follow-us">
+            <h3></h3>
+            <div class="follow-us-image">
+                <img src="images/lala.png" alt="Follow Us Image 2">
+            </div>
+        </div>
+    </footer>
+    <footer class="second-footer">
+        <div class="second-footer-content">
+            <p>&copy; 2023 CineMania. All rights reserved.</p>
+        </div>
+    </footer>
+	
+	
+</body>
+</html>

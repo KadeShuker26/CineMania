@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<!--HEAD--->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMania</title>
+    <link rel="stylesheet" href="new.css" type="text/css">  
+    <script src="javascript.js"></script>
+	
+</head>
+
+<!--BODY--->
+<body>
+    <nav>    
+        <!--CURTAIN MENU ICON-->    
+        <p class="menu-icon-style" onclick="openNav()">&#9776;</p>  
+	        <a href="index.html"><img src="images/logo.png" alt="CineMania" class="menu-tagline-style"></a>
+
+        <!-- Add the search bar here -->
+		
+
+<div class="header-icons">
+    <div class="search-container">
+        <form action="/search" method="get">
+            <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+            <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+        </form>
+    </div>
+    <a href="profile.html" class="login-icon">&#128100;</a>
+</div>
+
+
+</div>
+    </nav>   
+
+    <!--CURTAIN MENU LAYER-->   
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+		<a href="trailers.html">Trailers</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="login.html">Login</a>
+      </div>
+    </div>  
+
+
+<section class="featured-cinemas">
+    <h2 class="title1">Genres</h2>
+    <div class="cinema-row">
+        <div class="cinema-box">
+            <img src="images/shine.jpg" alt="The Dark Knight">
+            <h3>Horror</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/term.jpg" alt="The Godfather">
+            <h3>Action</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/fight.jpg" alt="Fight Club">
+            <h3>Thriller</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/mar.jpg" alt="Fight Club">
+            <h3>Drama</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/alien.jpg" alt="Fight Club">
+            <h3>Sci-fi</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/titanic.jpg" alt="Fight Club">
+            <h3>Romance</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <!-- Add more cinema boxes as needed -->
+    </div>
+</section>
+
+<section class="featured-cinemas2">
+    <h2 class="title1">Awards</h2>
+    <div class="cinema-row">
+        <div class="cinema-box">
+            <img src="images/moon.jpg" alt="The Dark Knight">
+            <h3>Best Picture</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/leo3.jpg" alt="The Godfather">
+            <h3>Best Actor</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/getty.jpg" alt="Fight Club">
+            <h3>Best Actress</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/dam.jpg" alt="Fight Club">
+            <h3>Best Director</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/suc.jpg" alt="Fight Club">
+            <h3>Outstanding Drama Series</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <div class="cinema-box">
+            <img src="images/bear.jpg" alt="Fight Club">
+            <h3>Outstanding Comedy Series</h3>
+            <div class="cinema-rating"></div>
+        </div>
+        <!-- Add more cinema boxes as needed -->
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- Footer Section -->
+<footer class="movie-review-footer">
+    <div class="footer-disclaimer">
+        <p><a href="#">Privacy Policy</a></p>
+        <p>Terms of Service</p>
+        <p>Cookies Notice</p>
+        <p>Help </p>
+    </div>
+    <div class="write-review-desktop">
+        <p><span class="pencil-symbol"></span> Write your first review now!</p>
+    </div>
+    <div class="follow-us">
+        <h3></h3>
+        <div class="follow-us-image">
+         <img src="images/lala.png" alt="Follow Us Image 2">
+        </div>
+    </div>
+</footer>
+<footer class="second-footer">
+    <div class="second-footer-content">
+        <p>&copy; 2023 CineMania. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

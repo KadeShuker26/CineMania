@@ -1,0 +1,966 @@
+/* Styles for small devices (smartphones) - MOBILE FIRST APPROACH */
+/* screen width <= 425px */
+
+/* Styles for small devices (smartphones) - screen width <= 425px */
+body {
+    background-color: white;
+    font-family: "Serif", sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+
+
+	
+}
+.watchlist {
+	margin-left: 12px;
+}
+.featured-movies{
+	flex:1;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Movie Reviews Section */
+.movie-reviews {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+	    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+	
+		
+}
+
+.movie-reviews h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.review h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.review p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.review p:last-child {
+    font-weight: bold;
+    color: red;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 70%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  flex: 1;
+
+  
+  
+
+}
+.slides {
+  display: flex;
+  height: 100%;
+  
+  
+  
+}
+.slide {
+  width: 100%; /* Change min-width to width */
+  position: relative;
+    transition: transform 0.7s ease-out; /* Add a smooth transition effect for slide changes */
+ 
+}
+.slide img {
+	
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.slide-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#next-btn,
+#prev-btn {
+  cursor: pointer;
+  background: transparent;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  color: white;
+  
+  
+}
+#next-btn:focus,
+#prev-btn:focus {
+  outline: none;
+}
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+   transform: translateX(-50%);
+  font-size: 60px;
+  color: white;
+  
+ 
+}
+
+/* Style for the login/sign-up area */
+.login-signup-area {
+	
+
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+	margin: 50px auto; /* Center horizontally by setting left and right margins to auto */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 300px;
+	height: 50;
+	
+
+}
+
+.passwordtext {
+	text-align:left;
+	
+}
+
+.login-signup-area h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.login-signup-area form {
+    margin: 20px 0;
+}
+
+.login-signup-area label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.login-signup-area input[type="text"],
+.login-signup-area input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.login-signup-area input[type="submit"] {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-signup-area input[type="submit"]:hover {
+    background-color: #005aa1;
+}
+
+.login-signup-area a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+.login-signup-area a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.about-section {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+	margin-top:50px;
+	
+
+}
+
+.section-title {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Add more CSS rules as needed to style other elements on the page */
+
+
+/* Add more CSS rules as needed to style other elements on the page */
+
+.content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Style for the search bar container */
+/* Your existing CSS code goes here */
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.login-icon {
+    font-size: 24px;
+    margin-left: 20px;
+    color: #333; /* Customize the color as needed */
+    text-decoration: none;
+}
+
+.login-icon:hover {
+    color: #666; /* Customize the hover color as needed */
+}
+
+.button {
+	display: inline-block;
+	margin: 4px 2px;
+	background-color: #444;
+	font-size: 14px;
+	padding-left: 32px;
+	padding-right: 32px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.button:hover {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+}
+
+.search-container {
+	position: relative;
+	display: inline-block;
+	margin: 4px 2px;
+	height: 50px;
+	width: 50px;
+	vertical-align: bottom;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions for the effect */
+}
+
+
+
+.search-container:hover {
+  transform: scale(1.04); /* Increase the size by 10% (adjust the value as needed) */
+
+}
+
+
+.mglass {
+	display: inline-block;
+	pointer-events: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+}
+
+.searchbutton {
+	position: absolute;
+	font-size: 22px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.search:focus + .searchbutton {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+}
+
+.search {
+	position: absolute;
+	left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+	background-color: white;
+	outline: none;
+	border: none;
+	padding: 0;
+	width: 0;
+	height: 100%;
+	z-index: 10;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+	width: 210px; /* Bar width+1px */
+	padding: 0 16px 0 0;
+}
+
+.expandright {
+	left: auto;
+	right: 49px; /* Button width-1px */
+}
+
+.expandright:focus {
+	padding: 0 0 0 16px;
+}
+
+
+/* Navbar styles for small screens */
+nav {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+	height: 5.5em;
+	
+}
+
+.menu-icon-style {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions for the effect */
+
+}
+
+
+
+.menu-icon-style:hover {
+  transform: scale(1.06); /* Increase the size by 10% (adjust the value as needed) */
+
+}
+
+
+
+.menu-tagline-style {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+	margin-left: 14%;
+	height: 3em;
+	 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions for the effect */
+	
+}
+
+
+
+.menu-tagline-style:hover {
+  transform: scale(1.03); /* Increase the size by 10% (adjust the value as needed) */
+
+}
+
+
+/* Curtain Menu Layer Style */
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    margin-top: 2.0em;
+	margin-left: 7%;
+}
+
+
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    margin-top: 2.0em;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 1.2em;
+    right: 3.0em;
+    font-size: 4.0em;
+}
+
+.overlay a {
+    font-size: 2.0em;
+    margin-bottom: 10px; /* Add margin to create space between lines of text */
+    line-height: 1.5; /* Adjust the line-height value as needed */
+}
+
+.overlay .closebtn {
+    font-size: 3.0em;
+    top: 1.0em;
+    right: 2.2em;
+}
+
+/* Header styles */
+header {
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    min-height: 60vh;
+    background-color: gray;
+
+}
+
+main section {
+    text-align: center;
+}
+
+
+
+main section button {
+    padding: 0.2em;
+    margin: 1.0em;
+    width: 200px;
+    border: 2px solid black;
+    background-color: orange;
+    font-size: 1.5em;
+}
+
+/* Articles section styles */
+#article-section {
+    min-height: 50vh;
+    background-color: lightblue;
+}
+
+.article-style {
+    width: 90%;
+    display: inline-block;
+    background-color: white;
+    border: solid 2px black;
+    margin: 1.0em;
+}
+
+/* Movie row and box styles */
+.movie-row {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+
+}
+
+.movie-box {
+    width: 150px;
+    height: 220px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+	border-radius: 10px; /* Add rounded corners */
+	background-color: #eeeeee;
+	flex-shrink: 0;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions for the effect */
+}
+
+.movie-box img {
+    max-width: auto;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+	border-radius: 3px; /* Add rounded corners */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow */
+	margin-bottom: 5px;
+	margin-top: 2px;
+}
+
+
+.movie-box:hover {
+  transform: scale(1.02); /* Increase the size by 10% (adjust the value as needed) */
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+
+/* Style for the top-grossing movies section */
+#top-grossing-movies {
+    margin-top: 20px; /* Add spacing between sections */
+    padding: 20px;
+    background-color: #f5f5f5; /* Background color for the section */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the section heading */
+#top-grossing-movies h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the movie details */
+.movie-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add spacing between movies */
+}
+
+/* Style for the movie placing labels */
+.movie-place {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 40px; /* Increase the width to make the circle larger */
+    height: 40px; /* Increase the height to make the circle larger */
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the movie images */
+.movie-details img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+	border-radius: 3px; /* Add rounded corners */
+
+}
+
+/* Style for movie titles */
+
+.movie-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px; /* Add margin below the movie title */
+}
+
+/* Style for box office amounts */
+.movie-info p {
+    margin: 0; /* Reset the margin to remove default spacing */
+    color: #777;
+    margin-top: 5px; /* Add margin above the box office amount */
+}
+
+/* Style for the ordered list */
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Style for list items */
+ol li {
+    border-bottom: 1px solid #ddd; /* Add a horizontal line between movies */
+    padding-bottom: 20px;
+}
+
+/* Style for the last list item to remove the border */
+ol li:last-child {
+    border-bottom: none;
+}
+
+/* Cinema row and box styles */
+.featured-cinemas {
+    background-image: url('images/genrejpg'); /* Replace with the image path for the section's background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	color: white;
+	padding: 10px;
+	
+	
+   /* Add some padding to separate content from the background */
+
+}
+.featured-cinemas2 {
+    background-image: url('images/oscarjpg'); /* Replace with the image path for the section's background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	color: white;
+	padding: 10px;
+   /* Add some padding to separate content from the background */
+
+}
+
+.title1 {
+    margin-left: 11px;
+	background: rgba(0, 0, 0, 0.7); /* Set a semi-transparent black background */
+
+    color: white; /* Set the text color to white (or any other color you prefer) */
+    padding: 10px; /* Add padding to create space around the text */
+    display: inline-block; /* Make the element a block-level element to contain the background */
+	border-radius: 5px; /* Add rounded corners */
+}
+
+.cinema-row {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+	
+}
+
+.cinema-box {
+    width: 200px;
+    height: 250px;
+    margin-right: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+	color: white;
+    border: 1px solid darkgrey;
+	transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition for the effect */
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions for the effect */
+	background: rgba(0, 0, 0, 0.7); /* Set a semi-transparent black background */
+    flex-shrink: 0;
+	
+
+	
+	
+
+}
+
+
+.cinema-box:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19); /* Define the shadow properties */
+    transform: scale(1.02); /* Increase the size by 10% (adjust the value as needed) */
+	    border-radius: 10px; /* Add rounded corners */
+}
+.cinema-box img {
+    max-width: auto;
+    max-height: 160px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px; /* Add rounded corners */
+    margin-bottom: 10px;
+	margin-top:0px;
+
+}
+
+.wrapper {
+    flex: 1;
+    padding: 0 15px; /* Add padding to create a gap on smaller screens */
+}
+
+footer {
+	margin-top: auto;
+	height: 15%;
+    background-color: black;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    height: auto;
+	position: sticky;
+	
+}
+
+ /* Styles for the footer */
+.movie-review-footer {
+    background-color: #333;
+    color: white;
+    padding: 0px;
+    display: flex;
+    flex-direction: row; /* Arrange content in three columns */
+    justify-content: space-between; /* Space content evenly */
+    align-items: center; /* Center-align vertically */
+    text-align: center;
+}
+.gap {
+	height: 35px;
+}
+
+/* Style the individual columns */
+.footer-disclaimer {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    line-height: 0.7; /* Adjust this value for line spacing */
+
+}
+
+
+
+
+
+.write-review {
+	flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+	font-size: 20px;
+}
+
+.follow-us {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the links in the footer disclaimer */
+.footer-disclaimer a {
+    color: white;
+    text-decoration: none;
+
+}
+.footer-disclaimer p {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions for the effect */
+}
+
+.footer-disclaimer p:hover {
+  transform: scale(1.01); /* Increase the size by 10% (adjust the value as needed) *//
+}
+
+/* Style the follow us image */
+.follow-us-image img {
+    max-width: 100px;
+    height: auto;
+	float:right;
+    transition: transform 0.7s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions for the effect */
+}
+
+
+
+.follow-us-image img:hover {
+  transform: scale(1.05); /* Increase the size by 10% (adjust the value as needed) */
+
+}
+
+
+/* Styles for the copyright text */
+.copyright {
+    font-size: 14px;
+}
+
+        .pencil-symbol::before {
+            content: "\270E"; /* Unicode for the pencil symbol */
+            margin-right: 5px;
+			font-size: 22px;
+		}
+
+.write-review-desktop {
+    display: none; /* Initially hide on all screens */
+	font-size: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions for the effect */
+	
+
+}
+
+
+.write-review-desktop:hover {
+  transform: scale(1.04); /* Increase the size by 10% (adjust the value as needed) */
+
+}
+
+/* Style for the second footer */
+.second-footer {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.second-footer .second-footer-content {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Center the text in the second footer */
+.second-footer p {
+    text-align: center;
+}
+
+
+/* Styles for tablets (min-width: 426px) */
+@media only screen and (min-width: 426px) {
+    /* Add your tablet-specific styles here */
+    .menu-icon-style {
+        font-size: 2.0em;
+    }
+    
+    .menu-tagline-style {
+        font-size: 2.0em;
+		height: 2.5em;
+    }
+    /* Adjust the search bar styles for smaller screens here */
+    .search-bar input[type="text"] {
+        padding: 6px; /* Decrease the padding for smaller screens */
+        font-size: 14px; /* Decrease the font size for smaller screens */
+    }
+    .search-bar button {
+        padding: 10px 8px; /* Decrease the padding for smaller screens */
+    }
+	.follow-us {
+		font-size: 0.95em;
+	}
+	.follow-us-image img {
+		max-width: 37.5%;
+	}
+	 footer {
+        position: relative; /* Revert to relative positioning for larger screens */
+	 }
+	.footer-disclaimer {
+		font-size: 0.95em;
+	}
+	.login-signup-area {
+
+	width: 400px;
+
+}
+
+}
+
+/* Styles for desktop (min-width: 769px) */
+@media only screen and (min-width: 769px) {
+    /* Add your desktop-specific styles here */
+    .menu-icon-style {
+        font-size: 2.5em;
+    }
+    
+    .menu-tagline-style {
+        font-size: 2.5em;
+		height: 2em;
+		
+    }
+    /* Adjust the search bar styles for smaller screens here */
+    .search-bar input[type="text"] {
+        padding: 6px; /* Decrease the padding for smaller screens */
+        font-size: 14px; /* Decrease the font size for smaller screens */
+    }
+    .search-bar button {
+        padding: 10px 8px; /* Decrease the padding for smaller screens */
+    }
+	.overlay {
+		height: 100%;
+		width: 30%;
+	}
+	.follow-us {
+		font-size: 1.1em;
+	}
+	.follow-us-image img {
+		max-width: 35%;
+	}
+	 footer {
+        position: relative; /* Revert to relative positioning for larger screens */
+	 }
+	.footer-disclaimer {
+		font-size: 1.1em;
+	}
+    .write-review-desktop {
+        display: block;
+    }
+	
+	.container {
+
+  max-width: 40%;
+    height: 350px;
+
+
+  
+  
+
+}
+	
+.login-signup-area {
+
+	width: 500px;
+
+}
+
+
+
+

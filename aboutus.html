@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<!--HEAD--->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMania</title>
+    <link rel="stylesheet" href="new.css" type="text/css">
+    <script src="javascript.js"></script>	
+	
+</head>
+
+<!--BODY--->
+<body>
+    <nav>    
+        <!--CURTAIN MENU ICON-->    
+        <p class="menu-icon-style" onclick="openNav()">&#9776;</p>  
+	        <a href="index.html"><img src="images/logo.png" alt="CineMania" class="menu-tagline-style"></a>
+
+        <!-- Add the search bar here -->
+		
+
+<div class="header-icons">
+    <div class="search-container">
+        <form action="/search" method="get">
+            <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+            <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+        </form>
+    </div>
+    <a href="profile.html" class="login-icon">&#128100;</a>
+</div>
+
+
+</div>
+    </nav>   
+
+    <!--CURTAIN MENU LAYER-->   
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+		<a href="trailers.html">Trailers</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="login.html">Login</a>
+      </div>
+    </div>  
+
+
+
+<div class="wrapper">
+   <section class="about-section">
+        <h2 class="section-title">About Cineamania</h2>
+        <p class="section-description">Welcome to Cineamania, your ultimate destination for movie reviews! Our team of passionate film enthusiasts is dedicated to providing you with insightful, honest, and entertaining reviews of the latest blockbusters, indie gems, and timeless classics. We believe that movies have the power to inspire, provoke, and entertain, and our mission is to share our cinematic journey with you.</p>
+    </section>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- Footer Section -->
+<footer class="movie-review-footer">
+    <div class="footer-disclaimer">
+        <p><a href="#">Privacy Policy</a></p>
+        <p>Terms of Service</p>
+        <p>Cookies Notice</p>
+        <p>Help </p>
+    </div>
+    <div class="write-review-desktop">
+        <p><span class="pencil-symbol"></span> Write your first review now!</p>
+    </div>
+    <div class="follow-us">
+        <h3></h3>
+        <div class="follow-us-image">
+         <img src="images/lala.png" alt="Follow Us Image 2">
+        </div>
+    </div>
+</footer>
+<footer class="second-footer">
+    <div class="second-footer-content">
+        <p>&copy; 2023 CineMania. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
